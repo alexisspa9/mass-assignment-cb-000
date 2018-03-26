@@ -6,6 +6,6 @@ class Person
 
 def initialize(attributes)
   attributes.each {|f, value|  self.send(("#{f}="), value)}
-  
+
 end
 end
